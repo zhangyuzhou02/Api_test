@@ -1,0 +1,237 @@
+{
+  "uid" : "35c73f782efb77ee",
+  "name" : "车主故事接口",
+  "fullName" : "test_case.test01.Test_run1#test_run",
+  "historyId" : "313b243924f4e354b2b7e15b5563ccd4",
+  "time" : {
+    "start" : 1630289518013,
+    "stop" : 1630289518215,
+    "duration" : 202
+  },
+  "description" : "车主故事接口",
+  "descriptionHtml" : "<p>车主故事接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "车主故事接口",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "接口请求url",
+      "time" : {
+        "start" : 1630289518212,
+        "stop" : 1630289518212,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d930076fa13d0924",
+        "name" : "请求url",
+        "source" : "d930076fa13d0924.attach",
+        "type" : "text/plain",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口请求参数",
+      "time" : {
+        "start" : 1630289518212,
+        "stop" : 1630289518213,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43fff14b1e26e17a",
+        "name" : "请求参数",
+        "source" : "43fff14b1e26e17a.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口请求header",
+      "time" : {
+        "start" : 1630289518213,
+        "stop" : 1630289518213,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8721731812ccad42",
+        "name" : "请求header",
+        "source" : "8721731812ccad42.attach",
+        "type" : "text/plain",
+        "size" : 390
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回结果",
+      "time" : {
+        "start" : 1630289518213,
+        "stop" : 1630289518214,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "110b0b8de4d44225",
+        "name" : "返回结果",
+        "source" : "110b0b8de4d44225.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回message",
+      "time" : {
+        "start" : 1630289518214,
+        "stop" : 1630289518214,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c4f4ecf7c92fefc",
+        "name" : "返回message",
+        "source" : "5c4f4ecf7c92fefc.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回code",
+      "time" : {
+        "start" : 1630289518214,
+        "stop" : 1630289518214,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee16dfd60ace4b6",
+        "name" : "返回code",
+        "source" : "ee16dfd60ace4b6.attach",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回value",
+      "time" : {
+        "start" : 1630289518214,
+        "stop" : 1630289518215,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8743ccf0da199d9",
+        "name" : "返回value",
+        "source" : "a8743ccf0da199d9.attach",
+        "type" : "text/plain",
+        "size" : 4797
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "APP接口测试"
+  }, {
+    "name" : "story",
+    "value" : "发布接口"
+  }, {
+    "name" : "feature",
+    "value" : "测试功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_run1"
+  }, {
+    "name" : "host",
+    "value" : "zhangyuzhoudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9462-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cheack",
+    "value" : "'车主故事'"
+  }, {
+    "name" : "data",
+    "value" : "None"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/community/app/post/search-car-stories'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35c73f782efb77ee.json",
+  "parameterValues" : [ "'车主故事'", "None", "'POST'", "'/api/community/app/post/search-car-stories'" ]
+}

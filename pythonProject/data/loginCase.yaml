@@ -1,0 +1,22 @@
+#登录接口
+-
+ url: login/
+ method: POST
+- #test用例01
+ headers: {
+"Authorization":"${buyerToken}"
+
+}
+ data:
+    username:
+    passwd:
+ params:
+  {"sku_id": "", "num": 1}
+ resp:
+  -massage: '登录成功'
+- #-test02
+ headers: headers
+ params:
+  {"sku_id": 788666, "num": 1}
+ resp:
+  -massage: '登录成功'

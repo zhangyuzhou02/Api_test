@@ -1,0 +1,13 @@
+- #精彩内容刷新
+  url: /api/community/app/post/search-of-home
+  method: post
+  data: {'loadedCount': 0}
+  resp:
+    massage: '获取成功'
+#- #此刻
+#  url: /api/community/app/post/search
+#  method: post
+#  headers: {"Content-Type": "application/x-www-form-urlencoded"}
+#  data: {'parentType': 1,'sort' :0}
+#  resp:
+#    massage: '获取成功'

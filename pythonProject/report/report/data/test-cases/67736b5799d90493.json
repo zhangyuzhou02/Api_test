@@ -1,0 +1,241 @@
+{
+  "uid" : "67736b5799d90493",
+  "name" : "我的页面接口",
+  "fullName" : "test_case.test01.Test_run1#test_run",
+  "historyId" : "fced1bd259da0d373ec0a2dcbbc8e076",
+  "time" : {
+    "start" : 1630289519621,
+    "stop" : 1630289519825,
+    "duration" : 204
+  },
+  "description" : "我的页面接口",
+  "descriptionHtml" : "<p>我的页面接口</p>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'value'",
+  "statusTrace" : "self = <test01.Test_run1 object at 0x7fa8579e5278>, url = '/api/user/app/me/get-me-center-data', data = None, method = 'POST', cheack = '我的页面'\n\n    @allure.epic('APP接口测试')\n    @allure.story('发布接口')\n    @allure.description('用例的描述:{}')\n    @allure.feature('测试功能')\n    @allure.title('测试模块')\n    @pytest.mark.parametrize(\"url,data,method,cheack\",data1)\n    def test_run(self,url,data,method,cheack):\n        allure.dynamic.description('{}接口'.format(cheack))\n        allure.dynamic.title('{}接口'.format(cheack))\n        res = Test().run(url,method,data)\n        with allure.step('接口请求url'):\n            allure.attach('{}'.format(url), name='请求url')\n        with allure.step('接口请求参数'):\n            allure.attach('{}'.format(data), name='请求参数')\n        with allure.step('接口请求header'):\n            allure.attach('{}'.format(header), name='请求header')\n        with allure.step('接口返回结果'):\n            allure.attach('{}'.format(res['success']), name='返回结果')\n        with allure.step('接口返回message'):\n            allure.attach('{}'.format(res['message']), name='返回message')\n        with allure.step('接口返回code'):\n            allure.attach('{}'.format(res['code']), name='返回code')\n        with allure.step('接口返回value'):\n>           allure.attach('{}'.format(res['value']), name='返回value')\nE           KeyError: 'value'\n\ntest01.py:46: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "我的页面接口",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'value'",
+    "statusTrace" : "self = <test01.Test_run1 object at 0x7fa8579e5278>, url = '/api/user/app/me/get-me-center-data', data = None, method = 'POST', cheack = '我的页面'\n\n    @allure.epic('APP接口测试')\n    @allure.story('发布接口')\n    @allure.description('用例的描述:{}')\n    @allure.feature('测试功能')\n    @allure.title('测试模块')\n    @pytest.mark.parametrize(\"url,data,method,cheack\",data1)\n    def test_run(self,url,data,method,cheack):\n        allure.dynamic.description('{}接口'.format(cheack))\n        allure.dynamic.title('{}接口'.format(cheack))\n        res = Test().run(url,method,data)\n        with allure.step('接口请求url'):\n            allure.attach('{}'.format(url), name='请求url')\n        with allure.step('接口请求参数'):\n            allure.attach('{}'.format(data), name='请求参数')\n        with allure.step('接口请求header'):\n            allure.attach('{}'.format(header), name='请求header')\n        with allure.step('接口返回结果'):\n            allure.attach('{}'.format(res['success']), name='返回结果')\n        with allure.step('接口返回message'):\n            allure.attach('{}'.format(res['message']), name='返回message')\n        with allure.step('接口返回code'):\n            allure.attach('{}'.format(res['code']), name='返回code')\n        with allure.step('接口返回value'):\n>           allure.attach('{}'.format(res['value']), name='返回value')\nE           KeyError: 'value'\n\ntest01.py:46: KeyError",
+    "steps" : [ {
+      "name" : "接口请求url",
+      "time" : {
+        "start" : 1630289519823,
+        "stop" : 1630289519823,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbfbc6fc8738cd3c",
+        "name" : "请求url",
+        "source" : "bbfbc6fc8738cd3c.attach",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口请求参数",
+      "time" : {
+        "start" : 1630289519823,
+        "stop" : 1630289519824,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "452762df881808ba",
+        "name" : "请求参数",
+        "source" : "452762df881808ba.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口请求header",
+      "time" : {
+        "start" : 1630289519824,
+        "stop" : 1630289519824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a31416d4dd39670",
+        "name" : "请求header",
+        "source" : "6a31416d4dd39670.attach",
+        "type" : "text/plain",
+        "size" : 390
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回结果",
+      "time" : {
+        "start" : 1630289519824,
+        "stop" : 1630289519824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4fd3eddd827905",
+        "name" : "返回结果",
+        "source" : "e4fd3eddd827905.attach",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回message",
+      "time" : {
+        "start" : 1630289519825,
+        "stop" : 1630289519825,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d27ceea00995a7b",
+        "name" : "返回message",
+        "source" : "5d27ceea00995a7b.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回code",
+      "time" : {
+        "start" : 1630289519825,
+        "stop" : 1630289519825,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4801bb96d77569ff",
+        "name" : "返回code",
+        "source" : "4801bb96d77569ff.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "接口返回value",
+      "time" : {
+        "start" : 1630289519825,
+        "stop" : 1630289519825,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'value'\n",
+      "statusTrace" : "  File \"/Users/zhangyuzou/PycharmProjects/pythonProject/test_case/test01.py\", line 46, in test_run\n    allure.attach('{}'.format(res['value']), name='返回value')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "APP接口测试"
+  }, {
+    "name" : "story",
+    "value" : "发布接口"
+  }, {
+    "name" : "feature",
+    "value" : "测试功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_run1"
+  }, {
+    "name" : "host",
+    "value" : "zhangyuzhoudeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9462-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cheack",
+    "value" : "'我的页面'"
+  }, {
+    "name" : "data",
+    "value" : "None"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/user/app/me/get-me-center-data'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "67736b5799d90493.json",
+  "parameterValues" : [ "'我的页面'", "None", "'POST'", "'/api/user/app/me/get-me-center-data'" ]
+}
